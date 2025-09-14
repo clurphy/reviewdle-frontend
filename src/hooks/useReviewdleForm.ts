@@ -15,7 +15,7 @@ export function useReviewdleForm(game?: Game, date?: string) {
         defaultValues: game
           ? {
               movie: game.movie,
-              date: game.date,
+              date: game.date?.split("T")[0],
               reviews: game.reviews,
               name: game.name,
             }

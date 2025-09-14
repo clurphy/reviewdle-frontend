@@ -9,7 +9,6 @@ export default defineConfig({
     port: 3000,
   },
   plugins: [
-    react(), 
     svgr({
       svgrOptions: { exportType: "default", ref: true, svgo: false, titleProp: true },
       include: "**/*.svg",

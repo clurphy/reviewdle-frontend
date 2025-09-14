@@ -6,15 +6,14 @@ import { Route } from '~/routes/reviewdle/admin/edit/$gameId'
 
 const EditGame = async () => {
     const game = Route.useLoaderData();
-    console.log(game)
     if (!game) {
-        // optional: show a loading state until the loader finishes
+
         return <Box
         sx={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          height: "100vh", // full viewport height
+          height: "100vh",
         }}
       >
         <CircularProgress size={60} thickness={4} />

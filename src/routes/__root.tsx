@@ -59,9 +59,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
             <Header />
             {children}
           </QueryClientProvider>
-        </Providers>
-
-        <TanStackRouterDevtools position="bottom-right" />
+        </Providers>                            
         <Scripts />
       </body>
     </html>
