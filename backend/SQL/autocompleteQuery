@@ -1,0 +1,9 @@
+  SELECT 
+    title || ' (' || EXTRACT(YEAR FROM release_date) || ')' AS title,
+    id
+  FROM movies
+  WHERE title ILIKE '%' || 'phantom' || '%'
+  ORDER BY
+    CASE WHEN title ILIKE 'phantom' || '%' THEN 0 ELSE 1 END,
+    LENGTH(title)
+  LIMIT 30;

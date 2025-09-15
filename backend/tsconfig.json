@@ -1,0 +1,23 @@
+{
+  "include": ["**/*.ts", "**/*.tsx", "public/script*.js", "src/config/db.ts"],
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "types": ["jest", "node"],
+    "moduleResolution": "node",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": false,
+    "target": "esnext",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "noEmit": true
+  }
+}
