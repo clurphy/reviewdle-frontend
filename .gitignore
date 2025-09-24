@@ -74,6 +74,8 @@ backend/.dynamodb/
 backend/.firebase/
 backend/lib-cov
 backend/build/Release
+backend/generated/prisma/
+backend/prisma/migrations/migration_lock.toml
 
 # --------------------------------------------------
 # Personal ignores
