@@ -1,0 +1,59 @@
+{
+    "id": 12,
+    "movieId": 155,
+    "date": "2025-08-13T00:00:00.000Z",
+    "name": "reviewdle",
+    "reviews": [
+        {
+            "id": 42,
+            "gameId": 12,
+            "hintNumber": 1,
+            "reviewLink": null,
+            "reviewText": "idekumbomnbobnay1! newer"
+        },
+        {
+            "id": 43,
+            "gameId": 12,
+            "hintNumber": 2,
+            "reviewLink": null,
+            "reviewText": "😭what😭 a 😭loss 😭to😭 spend😭 that😭 much 😭time😭 with 😭someone😭 --😭 only 😭to 😭find 😭out😤 she's😭 a 😭stranger😭"
+        },
+        {
+            "id": 44,
+            "gameId": 12,
+            "hintNumber": 3,
+            "reviewLink": null,
+            "reviewText": "this also happened when i dyed my hair"
+        },
+        {
+            "id": 45,
+            "gameId": 12,
+            "hintNumber": 4,
+            "reviewLink": null,
+            "reviewText": "Wish I could erase this film from my mind just so I can watch it for the first time all over again"
+        },
+        {
+            "id": 46,
+            "gameId": 12,
+            "hintNumber": 5,
+            "reviewLink": null,
+            "reviewText": "i love being sad"
+        }
+    ],
+    "movie": {
+        "id": 155,
+        "title": "The Dark Knight",
+        "originalTitle": "The Dark Knight",
+        "releaseDate": "2008-07-16T00:00:00.000Z",
+        "originalLanguage": "en",
+        "poster": "https://image.tmdb.org/t/p/w500//qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "createdAt": "2025-09-02T00:18:45.816Z",
+        "updatedAt": "2025-09-02T00:18:45.816Z",
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller"
+        ]
+    }
+}
